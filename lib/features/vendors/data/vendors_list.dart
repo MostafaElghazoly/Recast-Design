@@ -10,7 +10,7 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg",
       "https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg",
     ],
-    products: productsList.take(5).toList(),
+    products: productsList,
   ),
 
   VendorModel(
@@ -21,7 +21,7 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg",
       "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg",
     ],
-    products: productsList.skip(2).take(5).toList(),
+    products: productsList,
   ),
 
   VendorModel(
@@ -32,7 +32,7 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg",
       "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
     ],
-    products: productsList.take(6).toList(),
+    products: productsList,
   ),
 
   VendorModel(
@@ -43,7 +43,7 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg",
       "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg",
     ],
-    products: productsList.skip(3).take(4).toList(),
+    products: productsList,
   ),
 
   VendorModel(
@@ -54,7 +54,7 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg",
       "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg",
     ],
-    products: productsList.skip(5).take(4).toList(),
+    products: productsList,
   ),
 
   VendorModel(
@@ -65,7 +65,7 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg",
       "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg",
     ],
-    products: productsList.skip(6).take(4).toList(),
+    products: productsList,
   ),
 
   VendorModel(
@@ -76,7 +76,7 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
       "https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg",
     ],
-    products: productsList.skip(4).take(5).toList(),
+    products: productsList,
   ),
 
   VendorModel(
@@ -87,7 +87,7 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg",
       "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
     ],
-    products: productsList.skip(8).take(4).toList(),
+    products: productsList,
   ),
 
   VendorModel(
@@ -98,7 +98,7 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg",
       "https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg",
     ],
-    products: productsList.skip(10).take(4).toList(),
+    products: productsList,
   ),
 
   VendorModel(
@@ -109,6 +109,6 @@ final List<VendorModel> vendorsList = [
       "https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg",
       "https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg",
     ],
-    products: productsList.skip(12).take(4).toList(),
+    products: productsList,
   ),
 ];
